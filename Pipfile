@@ -1,0 +1,17 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[packages]
+flask = "*"
+
+[dev-packages]
+"flake8" = "*"
+pytest = "*"
+flask-webtest = "*"
+pytest-cov = "*"
+
+[scripts]
+app = "flask run"
+tests = "pytest tests.py"
