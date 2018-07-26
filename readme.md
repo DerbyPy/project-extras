@@ -1,3 +1,12 @@
+DerbyPy Project Extras Demo
+###########################
+
+[![CircleCI](https://circleci.com/gh/DerbyPy/project-extras.svg?style=svg)](https://circleci.com/gh/DerbyPy/project-extras)
+[![codecov](https://codecov.io/gh/DerbyPy/project-extras/branch/master/graph/badge.svg)](https://codecov.io/gh/DerbyPy/project-extras)
+
+Demo Steps
+==========
+
 1) build app
 2) install packages along the way
 3) build tests
@@ -8,12 +17,15 @@
 8) add circleci config
 9) test with circleci CLI command
 10) check coverage
+11) close gap in coverage
+12) add badges
 
 Bonus: explain how Python dependencies work
 
-Improvements:
+Improvements
+============
 
-* use circleci python containers
+* use circleci Python containers
 * use circleci to cache dependencies per their example:
 
 ```yaml
