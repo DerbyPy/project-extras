@@ -1,11 +1,11 @@
 DerbyPy Project Extras Demo
-###########################
+===========================
 
 [![CircleCI](https://circleci.com/gh/DerbyPy/project-extras.svg?style=svg)](https://circleci.com/gh/DerbyPy/project-extras)
 [![codecov](https://codecov.io/gh/DerbyPy/project-extras/branch/master/graph/badge.svg)](https://codecov.io/gh/DerbyPy/project-extras)
 
 Demo Steps
-==========
+----------
 
 1) build app
 2) install packages along the way
@@ -23,7 +23,7 @@ Demo Steps
 Bonus: explain how Python dependencies work
 
 Improvements
-============
+------------
 
 * use circleci Python containers
 * use circleci to cache dependencies per their example:
